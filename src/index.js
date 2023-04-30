@@ -59,9 +59,7 @@ const handleInput = event => {
                  <h6>Population: </h6>   ${user.population} 
                  </div>
                  <div class="list"> 
-                 <h6>Languages: </h6>   ${Object.values(user.languages).join(
-                   ', '
-                 )}
+                 <h6>Languages: </h6>   ${Object.values(user.languages).join(', ')}
                  </div> `
           );
           div.style.display = 'flex';
